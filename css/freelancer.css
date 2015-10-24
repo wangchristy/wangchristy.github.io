@@ -243,7 +243,8 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    /*background: rgba(24,188,156,.9);*/
+    background: rgba(230,37,123,.9); /*#E6257B*/
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -258,7 +259,7 @@ section.success a.active {
     top: 50%;
     width: 100%;
     height: 20px;
-    margin-top: -12px;
+    margin-top: -24px;
     text-align: center;
     font-size: 20px;
     color: #fff;
@@ -486,4 +487,7 @@ footer .footer-below {
 }
 .pink{
     color:#E6257B;
+}
+.uppercase{
+    text-transform:uppercase;
 }
