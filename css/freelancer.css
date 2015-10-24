@@ -92,6 +92,13 @@ header {
     background:#000000;
 }
 
+/*remove to delete background image*/
+header#main{
+    background-image:url("../images/cover3_2.png");
+    background-size:100%;
+    background-repeat:none;
+}
+
 header .container {
     padding-top: 50px;
     padding-bottom: 30px;
@@ -101,7 +108,10 @@ header img {
     display: block;
     margin: 0 auto 20px;
 }
-
+header .intro-text{
+    padding-top:10%;
+    padding-bottom:10%;
+}
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
@@ -111,7 +121,7 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
+    font-size: 2.5em;
     font-weight: 200;
 }
 
@@ -177,7 +187,7 @@ header .intro-text .skills {
     border: 0;
 }
 .nav-logo{
-    margin-top:-20px;
+    margin-top:-22.5px;
     width:65px;
     height:65px;
 }
@@ -469,4 +479,11 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.full-picture{
+    width:100%;
+}
+.pink{
+    color:#E6257B;
 }
