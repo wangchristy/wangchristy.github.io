@@ -96,7 +96,7 @@ header {
 header#main{
     background-image:url("../images/cover3_2.png");
     background-size:100%;
-    background-repeat:none;
+    background-repeat:no-repeat;
 }
 
 header .container {
