@@ -491,3 +491,6 @@ footer .footer-below {
 .uppercase{
     text-transform:uppercase;
 }
+.image_fit{
+    width:100%;
+}
