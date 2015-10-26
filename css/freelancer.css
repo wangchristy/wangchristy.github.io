@@ -297,9 +297,11 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    /*border: solid 2px #fff;*/
+    border:solid 2px #E6257B;
     color: #18bc9c;
-    background: #fff;
+    background: #E6257B;
+    /*background: #fff;*/
 }
 
 .floating-label-form-group {
@@ -488,9 +490,15 @@ footer .footer-below {
 .pink{
     color:#E6257B;
 }
+.white{
+    color:#ffffff;
+}
 .uppercase{
     text-transform:uppercase;
 }
 .image_fit{
     width:100%;
+}
+a:hover{
+    text-decoration:none;
 }
