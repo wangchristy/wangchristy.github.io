@@ -97,7 +97,6 @@ header {
 
 /*remove to delete background image*/
 header#main{
-    background-image:url("../images/cover3_2.jpg");
     background-size:100%;
     background-repeat:no-repeat;
 }
